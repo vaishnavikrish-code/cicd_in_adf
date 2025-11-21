@@ -1,0 +1,9 @@
+{
+	"name": "adfdev2025vk",
+	"location": "koreacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "94494183-194e-4c48-88aa-a968c5533e6c",
+		"tenantId": "416cafcb-5d37-4353-82a3-71a88a68ed97"
+	}
+}
