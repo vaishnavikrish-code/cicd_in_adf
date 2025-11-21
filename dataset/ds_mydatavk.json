@@ -1,0 +1,44 @@
+{
+	"name": "ds_mydatavk",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blodcicd",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "emp1.txt",
+				"fileSystem": "mydatavk"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "101",
+				"type": "String"
+			},
+			{
+				"name": "amar",
+				"type": "String"
+			},
+			{
+				"name": "90000",
+				"type": "String"
+			},
+			{
+				"name": "m",
+				"type": "String"
+			},
+			{
+				"name": "11",
+				"type": "String"
+			}
+		]
+	}
+}
